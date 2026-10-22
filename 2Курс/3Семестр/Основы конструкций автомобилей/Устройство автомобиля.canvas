@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"69a4c276ee30f8a4","type":"text","text":"ДВС","x":-800,"y":-300,"width":250,"height":60},
+		{"id":"6affeca2d1ef0693","type":"text","text":"Трансмиссия","x":-500,"y":-300,"width":250,"height":60},
+		{"id":"53e7293b82e1e601","type":"text","text":"Движетели","x":-180,"y":-300,"width":250,"height":60},
+		{"id":"eb1a89222faf2379","type":"text","text":"Системы управления","x":-500,"y":-100,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"5627ea8c22eb1319","fromNode":"69a4c276ee30f8a4","fromSide":"right","toNode":"6affeca2d1ef0693","toSide":"left"},
+		{"id":"45adcde9b5ed9a97","fromNode":"6affeca2d1ef0693","fromSide":"right","toNode":"53e7293b82e1e601","toSide":"left"},
+		{"id":"c93dc202be2478fa","fromNode":"eb1a89222faf2379","fromSide":"top","toNode":"6affeca2d1ef0693","toSide":"bottom"},
+		{"id":"48e0d84ca3e75800","fromNode":"eb1a89222faf2379","fromSide":"top","toNode":"69a4c276ee30f8a4","toSide":"bottom"},
+		{"id":"738daba06b273fb3","fromNode":"eb1a89222faf2379","fromSide":"top","toNode":"53e7293b82e1e601","toSide":"bottom"}
+	]
+}
